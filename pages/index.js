@@ -2,8 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import {Fragment} from 'React'; //React fragment blocks allows us to group togther h1 blocks, list blocks, and more for the purposes of returning from a functionmport styles from '../styles/Home.module.css'
 import Link from 'next/link';
-import {getAllReviews} from './ReviewData';
-import reviewList from './components/review-list'
+import {getMetalReviews} from '../ReviewData';
+import reviewList from '../components/reviews/review-list'
+
+//note: when we import a function from an adjacent folder embedded within another subfolder, we must use two dots proceeding the first folder to properly import the function.
+//note: When we import a function from a file that exists within the same folder that we are currently inside, we only need to use one dot preceding the file name.
+//note: when we import a function that is ALS0 CALLED within our file from a javascript file JUST outside of the current folder (not inside an outer project sub-folder) we are inside, we must use two dots preceeding the file name.
 
 //our domain.com/home
 
@@ -24,13 +28,15 @@ import reviewList from './components/review-list'
     //the time HTML element is used to specifiy the specific time of a post
     //the address HTML element is used to specify contact information for a person or organization
 
+//<reviewList reviews = {reviewList}/>
+
 function HomePage()
 {
-    const reviewList = getAllReviews();
+    const metalReviewList = getMetalReviews();
 
     return ( 
         <div>
-            <reviewList reviews = {reviewList}/> 
+             <reviewList reviews = {metalReviewList}/>
         </div>
             );
 } //Above, we are returning a list of reviews by referencing the reviews destructuring variable declared inside the reviewList function, and setting it equal to the reviewList variable that contains the list of all reviews from the getAllReviews function
