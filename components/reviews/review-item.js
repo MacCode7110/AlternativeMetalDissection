@@ -12,7 +12,7 @@ function reviewItem(props) //Essentially each instance of the reviewItem functio
         year: 'numeric'
     }); //we can create a date object in JS, and convert it to a format that is readable through the toLocaleDateString method
  
-    const reviewLink = `/reviews/${id}`; //string literal - must use backticks when coding a string literal
+    const reviewLink = `/albumreviews/${id}`; //string literal - must use backticks when coding a string literal
  
     //we only need one forward slash before the image variable because the image content in our public folder has already been statically served to this function
     return <li> 
