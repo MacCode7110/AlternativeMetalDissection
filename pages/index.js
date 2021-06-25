@@ -39,8 +39,15 @@ function HomePage()
              <reviewList reviews = {metalReviewList}/>
         </div>
             );
-} //Above, we are returning a list of reviews by referencing the reviews destructuring variable declared inside the reviewList function, and setting it equal to the reviewList variable that contains the list of all reviews from the getAllReviews function
-//The getAllReviews function returns the reviewList, which in the process, is formatted in a certain way by the frontend React code in the components files
+} //How React properties argument objects and data handling work:
+    //Before the line "reviewList reviews = {metalReviewList}", the local varibale metalReviewList stores the list of reviews returned from the getMetalReviews funciton in ReviewData.js
+    //In the line "reviewList reviews = {metalReviewList}", the reviewList function call takes in an argument variable names reviews, which holds the list of reviews also stored in the local variable
+    //In review-list.js, the review-list function then takes the properties argument object and destructures it into each part that makes up the object - in this case, the list of reviews is the only part that makes up the object
+    //In review-list.js, the review-list function also sends 5 different arguments (the review attributes) into the function call to reviewItem, for each iteration of the list of reviews as performed by the outer map function 
+    //In review-item.js, the review-item function destructures the properties argument object into the five attributes that make up a review - the reviewItem function is called the same number of times as the number of iterations the map function uses to traverse the entire lsit of reviews.
+    //KEY NOTE: The properties argument object is only ONE parameter as a whole, even if multiple variable arguments are passed into it
+        //The properties argument object is a parameter enabled by React that contains one or more pieces of data passed into it as one storage space.
+        //As a result, React is convenient because it sets up a unified approach of passing data between files so that webpages can be loaded more easily.
 
 export default HomePage; //exports the function HomePage to the web browser to be rendered
 
