@@ -1,5 +1,4 @@
-
-import Link from 'next/Link';
+import Link from 'next/link';
  
 function reviewItem(props) //Essentially each instance of the reviewItem function and its return is referenced in the reviewList function, where the full list of album reviews is returned.
 {
