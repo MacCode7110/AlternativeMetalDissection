@@ -15,7 +15,7 @@ function reviewItem(props) //Essentially each instance of the reviewItem functio
  
     //we only need one forward slash before the image variable because the image content in our public folder has already been statically served to this function
     return <li> 
-        <img> src = {'/' + image} alt = {title} </img>
+        <img src = {'/' + image} alt = {title}/> 
         <div> 
             <div>
                 <h2> {title} </h2> 
