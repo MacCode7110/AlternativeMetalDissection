@@ -1,4 +1,4 @@
-import reviewItem from './review-item'; //here, React allows us to import the reviewItem component from our relative path to review-item.js
+import reviewItem from './ReviewItem'; //here, React allows us to import the reviewItem component from our relative path to review-item.js
  
 function reviewList(props) //this function is technically a React function component - it is called a React component because it accepts a properties argument object as a parameter. This argument object contains data that comes from the ReviewData.js file.
 {

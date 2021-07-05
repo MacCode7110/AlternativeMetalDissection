@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import {Fragment} from 'react'; //React fragment blocks allows us to group togther h1 blocks, list blocks, and more for the purposes of returning from a functionmport styles from '../styles/Home.module.css'
 import Link from 'next/link';
-import {getMetalReviews} from '../reviewdata';
-import reviewList from '../components/reviews/review-list'
+import {getMetalReviews} from '../ReviewData';
+import reviewList from '../Components/Reviews/ReviewList'
 
 //note: when we import a function from an adjacent folder embedded within another subfolder, we must use two dots proceeding the first folder to properly import the function.
 //note: When we import a function from a file that exists within the same folder that we are currently inside, we only need to use one dot preceding the file name.
