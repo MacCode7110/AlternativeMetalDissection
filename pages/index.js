@@ -3,7 +3,7 @@ import Image from 'next/image'
 import {Fragment} from 'react'; //React fragment blocks allows us to group togther h1 blocks, list blocks, and more for the purposes of returning from a functionmport styles from '../styles/Home.module.css'
 import Link from 'next/link';
 import {getMetalReviews} from '../ReviewData';
-import reviewList from '../Components/Reviews/ReviewList'
+import ReviewList from '../Components/Reviews/ReviewList'
 
 //note: when we import a function from an adjacent folder embedded within another subfolder, we must use two dots proceeding the first folder to properly import the function.
 //note: When we import a function from a file that exists within the same folder that we are currently inside, we only need to use one dot preceding the file name.
@@ -35,13 +35,13 @@ function HomePage()
     const metalReviewList = getMetalReviews();
 
     return ( 
-        <div>
-             <reviewList reviews = {metalReviewList}/>
+        <div>           
+             <ReviewList reviews = {metalReviewList}/>
         </div>
             );
 } //How React properties argument objects and data handling work:
-    //Before the line "reviewList reviews = {metalReviewList}", the local varibale metalReviewList stores the list of reviews returned from the getMetalReviews funciton in ReviewData.js
-    //In the line "reviewList reviews = {metalReviewList}", the reviewList function call takes in an argument variable names reviews, which holds the list of reviews also stored in the local variable
+    //Before the line "reviewList reviews = {metalReviewList}", the local varibale metalReviewList stores the list of reviews returned from the getMetalReviews function in ReviewData.js
+    //In the line "reviewList reviews = {metalReviewList}", the reviewList function invocation takes in an argument variable named reviews, which holds the list of reviews also stored in the local variable
     //In review-list.js, the review-list function then takes the properties argument object and destructures it into each part that makes up the object - in this case, the list of reviews is the only part that makes up the object
     //In review-list.js, the review-list function also sends 5 different arguments (the review attributes) into the function call to reviewItem, for each iteration of the list of reviews as performed by the outer map function 
     //In review-item.js, the review-item function destructures the properties argument object into the five attributes that make up a review - the reviewItem function is called the same number of times as the number of iterations the map function uses to traverse the entire lsit of reviews.

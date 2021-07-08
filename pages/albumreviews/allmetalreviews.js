@@ -7,4 +7,4 @@ function allMetalReviewsPage()
     );
 }
 
-export default allMetalReviewsPage();
+export default allMetalReviewsPage;
