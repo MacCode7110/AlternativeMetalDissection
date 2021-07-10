@@ -1,5 +1,5 @@
 /*We can also create CSS files within React modules - the only nuance here is that we must name the CSS file filename.module.css, since our CSS file is inside of a module*/
 
 .item { /*this is the declaration for a class in CSS*/
-    color: red;
+    color: black;
 }

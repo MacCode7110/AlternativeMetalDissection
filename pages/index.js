@@ -1,13 +1,10 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import {Fragment} from 'react'; //React fragment blocks allows us to group togther h1 blocks, list blocks, and more for the purposes of returning from a functionmport styles from '../styles/Home.module.css'
 import Link from 'next/link';
-import {getMetalReviews} from '../ReviewData';
-import ReviewList from '../Components/Reviews/ReviewList'
 
-//note: when we import a function from an adjacent folder embedded within another subfolder, we must use two dots proceeding the first folder to properly import the function.
-//note: When we import a function from a file that exists within the same folder that we are currently inside, we only need to use one dot preceding the file name.
-//note: when we import a function that is ALS0 CALLED within our file from a javascript file JUST outside of the current folder (not inside an outer project sub-folder) we are inside, we must use two dots preceeding the file name.
+//Note about importing functions from outside Javascript files; 
+//1. When we need to reference a file that is within the same current parent folder we are in, we need to format the import as './file.js'
+//2. When we need to reference a file that is within one adjacent parent-folder outside of the current parent-folder we are in, we need to format the import as '../file.js'
+//3. When we need to reference a file that is located in multiple levels of parent folders outside of the current parent folder we are in, we need to place ../ before file.js the number of directory levels it takes to reach the same directory level as the file inside the desired parent folder or the file within the application folder.
 
 //our domain.com/home
 
@@ -32,12 +29,18 @@ import ReviewList from '../Components/Reviews/ReviewList'
 
 function HomePage()
 {
-    const metalReviewList = getMetalReviews();
-
-    return ( 
-        <div>           
-             <ReviewList reviews = {metalReviewList}/>
-        </div>
+    return (
+        <Fragment> 
+            <div> 
+                <h1>The Nu Metal Power Zone</h1>
+                <div>
+                    <Link href = '/AboutTheNuMetalPowerZone/AboutTheNuMetalPowerZone'> About The Nu Metal Power Zone </Link>
+                </div>
+                <div>           
+                    <Link href = '/NuMetalRecordReviews/AllNuMetalRecordReviews'> Nu Metal Record Reviews </Link>
+                </div>
+            </div>  
+        </Fragment>
             );
 } //How React properties argument objects and data handling work:
     //Before the line "reviewList reviews = {metalReviewList}", the local varibale metalReviewList stores the list of reviews returned from the getMetalReviews function in ReviewData.js
