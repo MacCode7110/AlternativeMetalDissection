@@ -6,7 +6,7 @@
         {
             id: 'r1',
             title: 'Tallah - Matriphagy',
-            review: '...',
+            review: 'a',
             date: '2021-7-10',
             image: 'images/Tallah Matriphagy Cover.jpg',
             isMetal: true,
@@ -15,7 +15,7 @@
         {
             id: 'r2',
             title: 'Dropout Kings - Audiodope',
-            review: '...',
+            review: 'b',
             date: '2021-7-10',
             image: 'images/Dropout Kings Audiodope.jpg',
             isMetal: true,
@@ -24,7 +24,7 @@
         {
             id: 'r3',
             title: 'Dropout Kings - GlitchGang',
-            review: '...',
+            review: 'c',
             date: '2021-7-10',
             image: 'images/Dropout Kings Glitchgang.jpg',
             isMetal: true,
@@ -33,7 +33,7 @@
         {
             id: 'r4',
             title: 'Weight of Silence - Give the People What they Want',
-            review: '...',
+            review: 'd',
             date: '2021-7-10',
             image: 'images/The Weight of Silence Give The People What They Want.jpg',
             isMetal: true,
@@ -41,9 +41,9 @@
         
         ];
         
-        export function getReviewByID(id)
+        export function getReviewByID(i)
         {
-            return reviewsList.find(review => (review.id === id)); //if the parameter id is strictly equal to the current review's id in the array of reviews, then true is returned and sent to the find function as an argument, and an indicator that the corresponding review has been located.
+            return reviewsList.find(review => (review.id === i)); //if the parameter i is strictly equal to the current review's id in the array of reviews, then true is returned and sent to the find function as an argument, and an indicator that the corresponding review has been located.
         }
         
         export function getMetalReviews()

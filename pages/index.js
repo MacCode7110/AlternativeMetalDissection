@@ -27,7 +27,7 @@ import Link from 'next/link';
 
 //<reviewList reviews = {reviewList}/>
 
-function HomePage()
+function homePage()
 {
     return (
         <Fragment> 
@@ -52,5 +52,5 @@ function HomePage()
         //The properties argument object is a parameter enabled by React that contains one or more pieces of data passed into it as one storage space.
         //As a result, React is convenient because it sets up a unified approach of passing data between files so that webpages can be loaded more easily.
 
-export default HomePage; //exports the function HomePage to the web browser to be rendered
+export default homePage; //exports the function HomePage to the web browser to be rendered
 
