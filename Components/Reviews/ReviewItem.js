@@ -1,18 +1,18 @@
 function ReviewItem(props)
-{
-    const{title, image, date, review, id} = props;
+{ 
+    const{review} = props;
 
     return (
         <div>
-            <h2> {title} </h2>
+            <h2> {review.title} </h2>
             <div>
-                <img src = {'/' + image} alt = {title}/> 
+                <img src = {'/' + review.image} alt = {review.title}/> 
             </div>
             <div>
-                <p> {review} </p>
+                <p> {review.text} </p>
             </div>
         </div>
-    )
+    );
 }
 
 export default ReviewItem;

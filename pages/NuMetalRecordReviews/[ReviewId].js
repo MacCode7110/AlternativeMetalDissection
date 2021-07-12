@@ -24,11 +24,12 @@ function recordReview()
             </h1>
         </div>
         <div>
-            <ReviewItem r = {review}/>
+            <ReviewItem review = {review}/> 
         </div>
     </div>
         );
 
 } //This web page is dynamic (the contents of this page change depending upon the perspective that views it and the data that is loaded), as indicated by the brackets surrounding the name of this file. This webpage displays an album review, and it is rendered when the link from the ReviewItem React component displayed on the home page is clicked.
-
+//When we pass in an argument to a React component function, the argument name must be the same as the nam eof the destructured variable. Otherwise, the compiler will think that each object property/field is undefined due to a null object.
+//Additionally, when we pass in the fields/properties of a list element/object into a React component function, the names of the arguments that store the values of those fields must have the same name as the respective fields themselves.
 export default recordReview;
