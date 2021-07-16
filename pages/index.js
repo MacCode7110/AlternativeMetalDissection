@@ -32,7 +32,7 @@ function homePage()
     return (
         <Fragment> 
             <div> 
-                <h1>The Nu Metal Power Zone</h1>
+                <h1>Th Nu Metal Power Zone</h1>
                 <div>
                     <Link href = '/AboutTheNuMetalPowerZone/AboutTheNuMetalPowerZone'> About The Nu Metal Power Zone </Link>
                 </div>
