@@ -1,7 +1,8 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import classes from './ReviewItemListing.module.css'; //here, we import all class objects from our module CSS file, similar to how the Link object is imported from Next.js for use.
 
-//try to see if we can get global varibales for id and review to allow access to them
+//try to see if we can get global variables for id and review to allow access to them
 
 function ReviewItemListing(props) //Essentially each instance of the reviewItem function and its return is referenced in the reviewList function, where the full list of album reviews is returned.
 {
@@ -22,7 +23,7 @@ function ReviewItemListing(props) //Essentially each instance of the reviewItem 
     //referencing our ReviewItem CSS module located locally inside of our Reviews folder inside the list HTML bracket or div HTML bracket means that the CSS styling in that file applies to every item/part in the entire block that is returned in this function.
     //note that the Recat Fragment does not support CSS styling from a file when imported through the className attribute
     return (<div className = {classes.item}> 
-        <img src = {'/' + image} alt = {title}/> 
+        <Image src = {'/' + image} alt = {title} width = "600" height = "500"/> 
         <div> 
             <div>
                 <h2> {title} </h2> 
