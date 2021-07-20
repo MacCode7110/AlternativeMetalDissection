@@ -40,7 +40,7 @@ function homePage()
                     <Link href = '/NuMetalRecordReviews/AllNuMetalRecordReviews'> Nu Metal Record Reviews </Link>
                 </div>
                 <div>
-                    <a href = "/RecordReviewRequest/index.html"> Request a Record for Review! </a>
+                    <a href = "/RecordReviewRequest/index"> Request a Record for Review! </a>
                 </div>
             </div>  
         </Fragment>
