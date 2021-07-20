@@ -26,7 +26,7 @@
             title: 'Dropout Kings - GlitchGang',
             text: 'c',
             date: '2021-7-10',
-            image: 'Images/Dropout Kings Glitchgang.jpg',
+            image: 'Images/Dropout Kings GlitchGang.jpg',
             isMetal: true,
         },
         
