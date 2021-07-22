@@ -26,7 +26,7 @@ import Link from 'next/link';
     //the address HTML element is used to specify contact information for a person or organization
 
 //<reviewList reviews = {reviewList}/>
-//HTML links are hyper links, which means that we can use the full URL to redirect the website to the desired webpage
+//HTML links are hyperlinks, which means that we NEED TO use the full URL of the destination webpage to redirect the website to the desired/destination webpage
 function homePage()
 {
     return (
