@@ -26,7 +26,7 @@ import Link from 'next/link';
     //the address HTML element is used to specify contact information for a person or organization
 
 //<reviewList reviews = {reviewList}/>
-
+//HTML links are hyper links, which means that we can use the full URL to redirect the website to the desired webpage
 function homePage()
 {
     return (
@@ -40,7 +40,7 @@ function homePage()
                     <Link href = '/NuMetalRecordReviews/AllNuMetalRecordReviews'> Nu Metal Record Reviews </Link>
                 </div>
                 <div>
-                    <a href = "/RecordReviewRequest/index.html"> Request a Record for Review! </a>
+                    <a href = "https://the-nu-metal-power-zone.vercel.app/RecordReviewRequest/index.html"> Request a Record for Review! </a>
                 </div>
             </div>  
         </Fragment>
