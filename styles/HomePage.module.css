@@ -1,6 +1,11 @@
 .title {
     background-color: red;
     opacity: 0.7;
+    
+    @font-face {
+        font-family: NuMetalFont;
+        src: url(Public\Fonts\grumpy cat.ttf);
+    }
 }
 
 /*note that the background color will only cover the height and width of the entire HTML element that it applies to*/
