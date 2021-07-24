@@ -2,6 +2,7 @@ import {getMetalReviews} from '../../ReviewData';
 import ReviewList from '../../Components/Reviews/ReviewList'
 import Head from 'next/head'
 import Image from 'next/image'
+import classes from '/styles/AllNuMetalRecordReviews.module.css'
 
 function allNuMetalRecordReviews() 
 {
@@ -9,7 +10,7 @@ function allNuMetalRecordReviews()
 
     return (
         <div>
-            <h1> All Nu Metal Record Reviews </h1>
+            <h1 className = {classes.title}> All Nu Metal Record Reviews </h1>
             
             <div> 
                 <ReviewList reviews = {metalReviewList}/> 
