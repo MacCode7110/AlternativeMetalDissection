@@ -1,11 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image' //the image element from Next.js allows for fast image loading and optimization when deploying to vercel
 //also note that the image elemet must also include height and width attributes
+import classes from '/styles/AboutTheNuMetalPowerZone.module.css';
+
 function aboutTheNuMetalPowerZone()
 {
     return (
     <div>
-        <div>
+        <div className = {classes.about}>
             <h1> About The Nu Metal Power Zone </h1>
         </div>
         <div>

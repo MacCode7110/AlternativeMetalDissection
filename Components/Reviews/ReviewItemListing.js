@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import classes from './styles/ReviewItemListing.module.css'; //here, we import all class objects from our module CSS file, similar to how the Link object is imported from Next.js for use.
+import classes from '/styles/ReviewItemListing.module.css'; //here, we import all class objects from our module CSS file, similar to how the Link object is imported from Next.js for use.
 
 //try to see if we can get global variables for id and review to allow access to them
 
