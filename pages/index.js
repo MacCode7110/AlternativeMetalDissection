@@ -1,6 +1,6 @@
 import {Fragment} from 'react'; //React fragment blocks allows us to group togther h1 blocks, list blocks, and more for the purposes of returning from a functionmport styles from '../styles/Home.module.css'
 import Link from 'next/link';
-import classes from '/styles/HomePage.module.css';
+import classes from '/styles/Home.module.css';
 
 //Note about importing functions from outside Javascript files; 
 //1. When we need to reference a file that is within the same current parent folder we are in, we need to format the import as './file.js'
@@ -33,7 +33,7 @@ function homePage()
     return (
         <Fragment> 
             <div> 
-                <h1 className = {classes.title}>The Nu Metal Power Zone</h1>
+                <h1 className = {classes.h1}>The Nu Metal Power Zone</h1>
                 <div>
                     <Link href = '/AboutTheNuMetalPowerZone/AboutTheNuMetalPowerZone'> About The Nu Metal Power Zone </Link>
                 </div>
