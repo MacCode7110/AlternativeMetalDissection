@@ -34,7 +34,7 @@ function homePage()
         <Fragment> 
             <div> 
                 <h1 className = {classes.h1}>The Nu Metal Power Zone</h1>
-                <div>
+                <div className = {classes.aboutLink}>
                     <Link href = '/AboutTheNuMetalPowerZone/AboutTheNuMetalPowerZone'> About The Nu Metal Power Zone </Link>
                 </div>
                 <div>           
