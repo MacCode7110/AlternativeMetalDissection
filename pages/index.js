@@ -37,10 +37,10 @@ function homePage()
                 <div className = {classes.aboutLink}>
                     <Link href = '/AboutTheNuMetalPowerZone/AboutTheNuMetalPowerZone'> About The Nu Metal Power Zone </Link>
                 </div>
-                <div>           
+                <div className = {classes.reviewsLink}>           
                     <Link href = '/NuMetalRecordReviews/AllNuMetalRecordReviews'> Nu Metal Record Reviews </Link>
                 </div>
-                <div>
+                <div className = {classes.requestLink}>
                     <a href = "https://the-nu-metal-power-zone.vercel.app/RecordReviewRequest/index.html"> Request a Record for Review! </a>
                 </div>
             </div>  
