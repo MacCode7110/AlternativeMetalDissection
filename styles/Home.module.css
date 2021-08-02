@@ -55,6 +55,7 @@
   text-align: center;
   position: absolute;
   left: 393px;
+  text-shadow: 2px 2px 5px green;
 }
 
 .reviewsLink {
@@ -67,6 +68,7 @@
   text-align: center;
   position: absolute;
   right: 643px;
+  text-shadow: 2px 2px 5px green;
 }
 
 .requestLink {
@@ -79,6 +81,7 @@
   text-align: center;
   position: absolute;
   left: 893px;
+  text-shadow: 2px 2px 5px green;
 }
 
 .h1 {
@@ -88,6 +91,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  text-shadow: 2px 2px 5px green;
 /*note that the background color will only cover the height and width of the entire HTML element that it applies to*/
 }
 
