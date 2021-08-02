@@ -7,7 +7,7 @@ function aboutTheNuMetalPowerZone()
 {
     return (
     <div>
-        <div className = {classes.about}>
+        <div className = {classes.aboutTitle}>
             <h1> About The Nu Metal Power Zone </h1>
         </div>
         <div>
