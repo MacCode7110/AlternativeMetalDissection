@@ -1,4 +1,4 @@
-/*This CSS file corresponds to the styling that applies to the homepage*/
+/*This CSS file corresponds to the styling that applies to the homepage. CSS attributes/properties are used to style each webpage*/
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -46,7 +46,7 @@
 }
 
 .aboutLink {
-  background-color: red;
+  background-color: darkslategrey;
   opacity: 0.7;
   font-family: "Impact";
   width: 250px;
@@ -55,11 +55,10 @@
   text-align: center;
   position: absolute;
   left: 393px;
-  text-shadow: 2px 2px 5px green;
 }
 
 .reviewsLink {
-  background-color: red;
+  background-color: darkslategrey;
   opacity: 0.7;
   font-family: "Impact";
   width: 250px;
@@ -68,11 +67,10 @@
   text-align: center;
   position: absolute;
   right: 643px;
-  text-shadow: 2px 2px 5px green;
 }
 
 .requestLink {
-  background-color: red;
+  background-color: darkslategrey;
   opacity: 0.7;
   font-family: "Impact";
   width: 250px;
@@ -81,17 +79,16 @@
   text-align: center;
   position: absolute;
   left: 893px;
-  text-shadow: 2px 2px 5px green;
 }
 
 .h1 {
-  background-color: red;
+  background-color: darkslategrey;
   opacity: 0.7;
   font-family: "Impact";
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
-  text-shadow: 2px 2px 5px green;
+  text-shadow: 2px 2px 5px rgb(255, 0, 0);
 /*note that the background color will only cover the height and width of the entire HTML element that it applies to*/
 }
 
@@ -164,3 +161,21 @@
     flex-direction: column;
   }
 }
+
+/*Hover selector usage for highlighting divs contianing links*/
+
+.requestLink:hover
+{
+  background-color: silver;
+}
+
+.reviewsLink:hover
+{
+  background-color: silver;
+}
+
+.aboutLink:hover
+{
+  background-color: silver;
+}
+
