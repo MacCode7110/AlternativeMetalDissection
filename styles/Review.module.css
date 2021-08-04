@@ -3,4 +3,6 @@
     opacity: 0.7;
     font-family: "Impact";
     text-shadow: 2px 2px 5px rgb(255, 0, 0);
+    margin-top: 0px;
+    line-height: 0.9;
 }
