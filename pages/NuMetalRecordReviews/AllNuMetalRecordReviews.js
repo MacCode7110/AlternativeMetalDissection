@@ -10,7 +10,7 @@ function allNuMetalRecordReviews()
 
     return (
         <div>
-            <h1 className = {classes.title}> All Nu Metal Record Reviews </h1>
+            <h1 className = {classes.allReviewsTitle}> All Nu Metal Record Reviews </h1>
             
             <div> 
                 <ReviewList reviews = {metalReviewList}/> 
