@@ -7,8 +7,8 @@ function aboutTheNuMetalPowerZone()
 {
     return (
     <div>
-        <div className = {classes.aboutTitle}>
-            <h1> About The Nu Metal Power Zone </h1>
+        <div>
+            <h1 className = {classes.aboutTitle}> About The Nu Metal Power Zone </h1>
         </div>
         <div>
             <p> The Nu Metal Power Zone is a website project designed and programmed by Matthew McAlarney. 
