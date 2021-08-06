@@ -5,4 +5,35 @@
     text-align: center;
     text-shadow: 2px 2px 5px rgb(255, 0, 0);
     margin-top: 0px;
+    position: relative;
+    height: 50px;
+    font-size: 40px;
+}
+
+.aboutParagraph {
+    font-family:'Times New Roman', Times, serif;
+    opacity: 0.7;
+    border: solid darkslategrey;
+    border-width: 15px;
+    border-radius: 50px;
+    height: 350px;
+    position: absolute;
+    text-indent: 40px;
+    font-size: 25px;
+    left: 40px;
+    right: 40px;
+}
+
+.aboutContact {
+    font-family:'Times New Roman', Times, serif;
+    border-width: 3px;
+    position: absolute;
+    top: 400px;
+    font-size: 20px;
+}
+
+.aboutImage {
+    position: absolute;
+    right: 50px;
+    top: 500px;
 }

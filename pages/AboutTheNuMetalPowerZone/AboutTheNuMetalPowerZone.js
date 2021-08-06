@@ -11,7 +11,7 @@ function aboutTheNuMetalPowerZone()
             <h1 className = {classes.aboutTitle}> About The Nu Metal Power Zone </h1>
         </div>
         <div>
-            <p> The Nu Metal Power Zone is a website project designed and programmed by Matthew McAlarney. 
+            <p className = {classes.aboutParagraph}> The Nu Metal Power Zone is a website project designed and programmed by Matthew McAlarney. 
             Matthew McAlarney is a Computer Science Major at Worcester Polytechnic Institute who has a love for application development. 
             Matthew McAlarney designed and programmed the Nu Metal Power Zone as a means of learning and implementing Javascript technologies such as React.js and Next.js.
             In addition, he also shares a passion for Nu Metal! Nu Metal is a diverse subgenre of Heavy Metal music that incorporates Hip Hop, Industrial, Grunge, Hardcore Punk, R&B, Goth, and World Music with the powerful groove of bulky, downtuned 7-string guitars.
@@ -20,12 +20,12 @@ function aboutTheNuMetalPowerZone()
             Matthew McAlarney writes a number of reviews for recent records that combine Nu Metal with Metalcore and Trap influences!
             Viewers can also submit requests through the Nu Metal Power Zone to Matthew McAlarney to review certain records! </p>
         
-            <p> Contact Information for Matthew McAlarney: <br />
+            <p className = {classes.aboutContact}> Contact Information for Matthew McAlarney: <br />
             <br />
                 Email: mattmcal88@gmail.com <br />
             </p>
         </div>
-        <div>
+        <div className = {classes.aboutImage}>
             <Image src = "/Images/PictureOfMeForNuMetalPowerZone.jpg" alt = "Matthew McAlarney" width = "400" height = "500"/> 
         </div>   
     </div>
