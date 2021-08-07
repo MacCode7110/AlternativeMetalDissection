@@ -25,8 +25,8 @@ function aboutTheNuMetalPowerZone()
                 Email: mattmcal88@gmail.com <br />
             </p>
         </div>
-        <div className = {classes.aboutImage}>
-            <Image src = "/Images/PictureOfMeForNuMetalPowerZone.jpg" alt = "Matthew McAlarney" width = "400" height = "500"/> 
+        <div className = {classes.aboutImageBorder}>
+            <Image className = {classes.aboutImageContent} src = "/Images/PictureOfMeForNuMetalPowerZone.jpg" alt = "Matthew McAlarney" width = "400" height = "500"/> 
         </div>   
     </div>
     ); //^method of loading an image in Javascript normally, without the factor of being a React component
