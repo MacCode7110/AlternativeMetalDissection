@@ -1,7 +1,7 @@
 html,
 body {
   background: darkslategrey; /* in case gradients are not supported on the browser used to access the web application*/
-  background-image: linear-gradient(to right, rgba(green), rgba(grey));
+  background-image: linear-gradient(to right, green, grey);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
