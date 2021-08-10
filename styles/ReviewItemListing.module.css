@@ -1,5 +1,28 @@
 /*We can also create CSS files within React modules - the only nuance here is that we must name the CSS file filename.module.css, since our CSS file is inside of a module*/
 
-.item { /*this is the declaration for a class in CSS*/
-    color: black;
+.reviewItemListingImageContainer { /*this is the declaration for a class in CSS*/
+    position: relative;
+    left: 50px;
+    top: 25px;
+}
+
+.reviewItemListingTitle {
+    position: relative;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    left: 50px;
+}
+
+.reviewItemListingDate {
+    position: relative;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    left: 50px;
+}
+
+.reviewItemListingLink {
+    position: relative;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    left: 50px;
 }
