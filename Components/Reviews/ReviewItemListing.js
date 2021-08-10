@@ -23,17 +23,19 @@ function ReviewItemListing(props) //Essentially each instance of the reviewItem 
     //referencing our ReviewItem CSS module located locally inside of our Reviews folder inside the list HTML bracket or div HTML bracket means that the CSS styling in that file applies to every item/part in the entire block that is returned in this function.
     //note that the Recat Fragment does not support CSS styling from a file when imported through the className attribute
     return (<div> 
-        <Image className = {classes.reviewItemListingImageContainer} src = {'/' + image} alt = {title} width = "600" height = "500"/> 
+        <div className = {classes.reviewItemListingImageContainer}>
+            <Image src = {'/' + image} alt = {title} width = "600" height = "500"/> 
+        </div>
         <div> 
             <div>
                 <h2 className = {classes.reviewItemListingTitle}> {title} </h2> 
-                <div className = {classes.reviewItemListingDate}>
-                    <time> {humanReadableDate} </time>
+                <div>
+                    <time className = {classes.reviewItemListingDate}> {humanReadableDate} </time>
                 </div>
             </div>
  
-            <div className = {classes.reviewItemListingLink}>
-                <Link href = {reviewLink}>
+            <div>
+                <Link className = {classes.reviewItemListingLink} href = {reviewLink}>
                 Read Review
                 </Link>
             </div>

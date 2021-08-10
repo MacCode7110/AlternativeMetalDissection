@@ -2,27 +2,29 @@
 
 .reviewItemListingImageContainer { /*this is the declaration for a class in CSS*/
     position: relative;
-    left: 50px;
-    top: 25px;
+    top: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .reviewItemListingTitle {
     position: relative;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    left: 50px;
+    left: 0px;
 }
 
 .reviewItemListingDate {
     position: relative;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    left: 50px;
+    left: 0px;
 }
 
 .reviewItemListingLink {
     position: relative;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    left: 50px;
+    left: 0px;
 }
