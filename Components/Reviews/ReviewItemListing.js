@@ -21,7 +21,7 @@ function ReviewItemListing(props) //Essentially each instance of the reviewItem 
     //className is an attribute similar to src and href, and it stores the CSS items class for use, which is referenced as a class object, as shown through the use of the classes keyword.
     //similar to how src is needed to render an image onto the homepage, the className attribute is needed to render the CSS fonts/colors/styles onto the homepage as well.
     //referencing our ReviewItem CSS module located locally inside of our Reviews folder inside the list HTML bracket or div HTML bracket means that the CSS styling in that file applies to every item/part in the entire block that is returned in this function.
-    //note that the Recat Fragment does not support CSS styling from a file when imported through the className attribute
+    //note that the React Fragment does not support CSS styling from a file when imported through the className attribute
     return (<div>
         <div className = {classes.reviewItemListingImageContainer}>
             <Image src = {'/' + image} alt = {title} width = "600" height = "500"/> 
