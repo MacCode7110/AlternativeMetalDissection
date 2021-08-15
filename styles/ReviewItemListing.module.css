@@ -3,7 +3,6 @@
 .reviewItemListingImageContainer { /*this is the declaration for a class in CSS*/
     position: relative;
     top: 25px;
-    padding: 0px;
 }
 
 .reviewItemListingTitle {
@@ -26,4 +25,9 @@
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     left: 0px;
+}
+
+.Link:hover
+{
+    background-color: silver;
 }
