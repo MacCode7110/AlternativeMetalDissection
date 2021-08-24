@@ -25,6 +25,7 @@
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     left: 0px;
+    background-color: darkslategrey;
 }
 
 .reviewItemListingLink:hover
