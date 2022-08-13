@@ -9,7 +9,7 @@ function reviewList(props) //this function is technically a React function compo
     //The map function is non-mutating on the original array, nor does it manipulate elements that do not hold values
     return <ul>        
         {reviews.map(r => 
-        <ReviewItemListing key = {r.id} id = {r.id} title = {r.title} image = {r.image} date = {r.date}/> //we must reference each variable part of the object destructuring of the properties object argument in review-item
+        <reviewItemListing key = {r.id} id = {r.id} title = {r.title} image = {r.image} date = {r.date}/> //we must reference each variable part of the object destructuring of the properties object argument in review-item
         )}  
     </ul>
 }

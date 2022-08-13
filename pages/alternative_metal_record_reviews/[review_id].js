@@ -25,7 +25,7 @@ function recordReview()
             </h1>
         </div>
         <div>
-            <ReviewItem review = {review}/> 
+            <reviewItem review = {review}/> 
         </div>
     </div>
         );
