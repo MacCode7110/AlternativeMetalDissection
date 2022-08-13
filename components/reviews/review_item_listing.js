@@ -4,7 +4,7 @@ import classes from '/styles/ReviewItemListing.module.css'; //here, we import al
 
 //try to see if we can get global variables for id and review to allow access to them
 
-function ReviewItemListing(props) //Essentially each instance of the reviewItem function and its return is referenced in the reviewList function, where the full list of album reviews is returned.
+function reviewItemListing(props) //Essentially each instance of the reviewItem function and its return is referenced in the reviewList function, where the full list of album reviews is returned.
 {
     const{title, image, date, text, id} = props; //from each element in reviewsList, we expect the data to come in the form of a title, linked image, date, review, and id tag - thus, we use object destructuring to separate the data for each element in the list of reviews into 5 different variables.
 
@@ -15,7 +15,7 @@ function ReviewItemListing(props) //Essentially each instance of the reviewItem 
         year: 'numeric'
     }); //we can create a date object in JS, and convert it to a format that is readable through the toLocaleDateString method
  
-    const reviewLink = `../../NuMetalRecordReviews/${id}`; //string literal - must use backticks when coding a string literal - here, the goal is to route the user to the [ReviewId]/Album Review dynamic webpage
+    const reviewLink = `../../alternative_metal_record_reviews/${id}`; //string literal - must use backticks when coding a string literal - here, the goal is to route the user to the [ReviewId]/Album Review dynamic webpage
  
     //we only need one forward slash before the image variable because the image content in our public folder has already been statically served to this function
     //className is an attribute similar to src and href, and it stores the CSS items class for use, which is referenced as a class object, as shown through the use of the classes keyword.
@@ -42,4 +42,4 @@ function ReviewItemListing(props) //Essentially each instance of the reviewItem 
          </div>);
 }
  
-export default ReviewItemListing;
+export default reviewItemListing;

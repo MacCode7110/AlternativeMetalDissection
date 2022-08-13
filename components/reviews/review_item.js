@@ -1,6 +1,6 @@
 
 
-function ReviewItem(props)
+function reviewItem(props)
 { 
     const{review} = props;
 
@@ -17,4 +17,4 @@ function ReviewItem(props)
     );
 }
 
-export default ReviewItem;
+export default reviewItem;
