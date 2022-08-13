@@ -33,12 +33,12 @@ function homePage()
     return (
         <Fragment> 
             <div> 
-                <h1 className = {classes.h1}>The Nu Metal Wower Zone</h1>
+                <h1 className = {classes.h1}>Alternative Metal Dissection</h1>
                 <div className = {classes.aboutLink}>
-                    <Link href = '/AboutTheNuMetalPowerZone/AboutTheNuMetalPowerZone'> About The Nu Metal Power Zone </Link>
+                    <Link href = '/AboutAlternativeMetalDissection/AboutAlternativeMetalDissection'> Alternative Metal Dissection </Link>
                 </div>
                 <div className = {classes.reviewsLink}>           
-                    <Link href = '/NuMetalRecordReviews/AllNuMetalRecordReviews'> Nu Metal Record Reviews </Link>
+                    <Link href = '/AlternativeMetalRecordReviews/AlternativeMetalRecordReviews'> Record Reviews </Link>
                 </div>
                 <div className = {classes.requestLink}>
                     <a href = "https://the-nu-metal-power-zone.vercel.app/RecordReviewRequest/index.html"> Request a Record for Review! </a>
