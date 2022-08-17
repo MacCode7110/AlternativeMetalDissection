@@ -24,33 +24,3 @@
     right: 40px;
     padding: 15px;
 }
-
-.aboutContact {
-    font-family:'Times New Roman', Times, serif;
-    top: 500px;
-    left: 40px;
-    font-size: 22px;
-    border-radius: 50px;
-    height: 150px;
-    opacity: 0.7;
-    border: 10px solid darkslategrey;
-    position: absolute;
-    padding-left: 30px;
-    padding-right: 150px;
-    padding-top: 25px;
-}
-
-.aboutImage {
-    transform: scale(0.15,0.15);
-    border-radius: 50%; /*border-radius property needs to be applied to an image directly in order to take effect*/  
-}
-
-.aboutImageContainer {
-    position: absolute;
-    left: 375px;
-    top: 350px;
-}
-
-
-
-
