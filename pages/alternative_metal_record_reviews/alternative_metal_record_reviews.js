@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import classes from '/styles/AlternativeMetalRecordReviews.module.css'
 
-function allternativeMetalRecordReviews() 
+function alternativeMetalRecordReviews() 
 {
     const metalReviewList = getMetalReviews();
 
