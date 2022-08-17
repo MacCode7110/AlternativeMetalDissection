@@ -35,13 +35,13 @@ function homePage()
             <div> 
                 <h1 className = {classes.h1}>Alternative Metal Dissection</h1>
                 <div className = {classes.aboutLink}>
-                    <Link href = '/AboutAlternativeMetalDissection/AboutAlternativeMetalDissection'> Alternative Metal Dissection </Link>
+                    <Link href = '/about_alternative_metal_dissection/about_alternative_metal_dissection'> Alternative Metal Dissection </Link>
                 </div>
                 <div className = {classes.reviewsLink}>           
-                    <Link href = '/AlternativeMetalRecordReviews/AlternativeMetalRecordReviews'> Record Reviews </Link>
+                    <Link href = '/alternative_metal_record_reviews/alternative_metal_record_reviews'> Record Reviews </Link>
                 </div>
                 <div className = {classes.requestLink}>
-                    <a href = "https://the-nu-metal-power-zone.vercel.app/RecordReviewRequest/index.html"> Request a Record for Review! </a>
+                    <a href = "https://alternative-metal-dissection.vercel.app/record_review_request/index.html"> Request a Record for Review! </a>
                 </div>
             </div>  
         </Fragment>
