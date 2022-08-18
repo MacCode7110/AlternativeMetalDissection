@@ -8,7 +8,7 @@
             title: 'Tallah - Matriphagy',
             text: 'a',
             date: '2021-7-10',
-            image: 'Images/tallah_matriphagy.jpg',
+            image: 'images/tallah_matriphagy.jpg',
             isMetal: true,
         },
         
@@ -17,7 +17,7 @@
             title: 'Dropout Kings - Audiodope',
             text: 'b',
             date: '2021-7-10',
-            image: 'Images/dropout_kings_audiodope.jpg',
+            image: 'images/dropout_kings_audiodope.jpg',
             isMetal: true,
         },
         
@@ -26,7 +26,7 @@
             title: 'Dropout Kings - GlitchGang',
             text: 'c',
             date: '2021-7-10',
-            image: 'Images/dropout_kings_glitchgang.jpg',
+            image: 'images/dropout_kings_glitchgang.jpg',
             isMetal: true,
         },
         
@@ -35,7 +35,7 @@
             title: 'Weight of Silence - Give the People What they Want',
             text: 'd',
             date: '2021-7-10',
-            image: 'Images/the_weight_of_silence_give_the_people_what_they_want.jpg',
+            image: 'images/the_weight_of_silence_give_the_people_what_they_want.jpg',
             isMetal: true,
         },
         
