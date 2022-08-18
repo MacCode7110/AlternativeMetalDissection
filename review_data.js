@@ -9,7 +9,7 @@
             text: 'a',
             date: '2021-7-10',
             image: 'images/tallah_matriphagy.jpg',
-            isMetal: true,
+            isMetal: true
         },
         
         {
@@ -18,7 +18,7 @@
             text: 'b',
             date: '2021-7-10',
             image: 'images/dropout_kings_audiodope.jpg',
-            isMetal: true,
+            isMetal: true
         },
         
         {
@@ -27,7 +27,7 @@
             text: 'c',
             date: '2021-7-10',
             image: 'images/dropout_kings_glitchgang.jpg',
-            isMetal: true,
+            isMetal: true
         },
         
         {
@@ -36,7 +36,7 @@
             text: 'd',
             date: '2021-7-10',
             image: 'images/the_weight_of_silence_give_the_people_what_they_want.jpg',
-            isMetal: true,
+            isMetal: true
         },
         
         ];
