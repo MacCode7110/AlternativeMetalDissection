@@ -35,7 +35,7 @@ function homePage()
             <div> 
                 <h1 className = {classes.h1}>Alternative Metal Dissection</h1>
                 <div className = {classes.aboutLink}>
-                    <Link href = '/about_alternative_metal_dissection/about_alternative_metal_dissection'> Alternative Metal Dissection </Link>
+                    <Link href = '/about_alternative_metal_dissection/about_alternative_metal_dissection'> About Alternative Metal Dissection </Link>
                 </div>
                 <div className = {classes.reviewsLink}>           
                     <Link href = '/alternative_metal_record_reviews/alternative_metal_record_reviews'> Record Reviews </Link>

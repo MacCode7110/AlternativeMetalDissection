@@ -10,35 +10,7 @@
             date: '2021-7-10',
             image: 'images/tallah_matriphagy.jpg',
             isMetal: true
-        },
-        
-        {
-            id: 'r2',
-            title: 'Dropout Kings - Audiodope',
-            text: 'b',
-            date: '2021-7-10',
-            image: 'images/dropout_kings_audiodope.jpg',
-            isMetal: true
-        },
-        
-        {
-            id: 'r3',
-            title: 'Dropout Kings - GlitchGang',
-            text: 'c',
-            date: '2021-7-10',
-            image: 'images/dropout_kings_glitchgang.jpg',
-            isMetal: true
-        },
-        
-        {
-            id: 'r4',
-            title: 'Weight of Silence - Give the People What they Want',
-            text: 'd',
-            date: '2021-7-10',
-            image: 'images/the_weight_of_silence_give_the_people_what_they_want.jpg',
-            isMetal: true
-        },
-        
+        },   
         ];
         
         export function getReviewByID(i) //function works correctly

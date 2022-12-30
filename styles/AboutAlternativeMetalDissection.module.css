@@ -12,15 +12,4 @@
 
 .aboutParagraph {
     font-family:'Times New Roman', Times, serif;
-    opacity: 0.7;
-    border: solid darkslategrey;
-    border-width: 10px;
-    border-radius: 50px;
-    height: 350px;
-    position: absolute;
-    text-indent: 40px;
-    font-size: 25px;
-    left: 40px;
-    right: 40px;
-    padding: 15px;
 }
