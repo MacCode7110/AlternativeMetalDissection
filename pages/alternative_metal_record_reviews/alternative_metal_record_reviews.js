@@ -1,5 +1,5 @@
 import {getMetalReviews} from '../../review_data';
-import reviewList from '../../components/reviews/review_list'
+import ReviewList from '../../components/reviews/Review_List'
 import Head from 'next/head'
 import Image from 'next/image'
 import classes from '/styles/AlternativeMetalRecordReviews.module.css'
@@ -12,7 +12,7 @@ function alternativeMetalRecordReviews()
         <div>
             <h1 className = {classes.allReviewsTitle}> Alternative Metal Record Reviews </h1>
             <div> 
-                <reviewList reviews = {metalReviewList}/> 
+                <ReviewList reviews = {metalReviewList}/> 
             </div>
         </div>
     );

@@ -2,9 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import classes from '/styles/ReviewItemListing.module.css'; //here, we import all class objects from our module CSS file, similar to how the Link object is imported from Next.js for use.
 
-//try to see if we can get global variables for id and review to allow access to them
-
-function reviewItemListing(props) //Essentially each instance of the reviewItem function and its return is referenced in the reviewList function, where the full list of album reviews is returned.
+function ReviewItemListing(props) //Essentially each instance of the reviewItem function and its return is referenced in the reviewList function, where the full list of album reviews is returned.
 {
     const{title, image, date, text, id} = props; //from each element in reviewsList, we expect the data to come in the form of a title, linked image, date, review, and id tag - thus, we use object destructuring to separate the data for each element in the list of reviews into 5 different variables.
 
@@ -42,4 +40,4 @@ function reviewItemListing(props) //Essentially each instance of the reviewItem 
          </div>);
 }
  
-export default reviewItemListing;
+export default ReviewItemListing;
