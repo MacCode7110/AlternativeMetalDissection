@@ -1,7 +1,6 @@
 import {useRouter} from 'next/router' //in order to access data dynamically (based on the perspective entering this webpage), we need access to the React router
 import {getReviewByID} from '../../review_data'
 import ReviewItem from '../../components/reviews/Review_Item'
-import classes from '/styles/Review.module.css';
 
 function recordReview()
 {
@@ -20,7 +19,7 @@ function recordReview()
     return (
     <div>
         <div>
-            <h1 className = {classes.title}>
+            <h1>
                 Record Review
             </h1>
         </div>

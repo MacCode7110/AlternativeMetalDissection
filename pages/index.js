@@ -1,6 +1,5 @@
 import {Fragment} from 'react'; //React fragment blocks allows us to group togther h1 blocks, list blocks, and more for the purposes of returning from a functionmport styles from '../styles/Home.module.css'
 import Link from 'next/link';
-import classes from '/styles/Home.module.css';
 
 //Note about importing functions from outside Javascript files; 
 //1. When we need to reference a file that is within the same current parent folder we are in, we need to format the import as './file.js'
@@ -33,14 +32,14 @@ function homePage()
     return (
         <Fragment> 
             <div> 
-                <h1 className = {classes.h1}>Alternative Metal Dissection</h1>
-                <div className = {classes.aboutLink}>
+                <h1>Alternative Metal Dissection</h1>
+                <div>
                     <Link href = '/about_alternative_metal_dissection/about_alternative_metal_dissection'> About Alternative Metal Dissection </Link>
                 </div>
-                <div className = {classes.reviewsLink}>           
+                <div>           
                     <Link href = '/alternative_metal_record_reviews/alternative_metal_record_reviews'> Record Reviews </Link>
                 </div>
-                <div className = {classes.requestLink}>
+                <div>
                     <a href = "https://alternative-metal-dissection.vercel.app/record_review_request/index.html"> Request a Record for Review! </a>
                 </div>
             </div>  
