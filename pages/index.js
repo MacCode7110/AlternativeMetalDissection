@@ -33,6 +33,7 @@ function homePage()
         <Fragment> 
             <div> 
                 <h1>Alternative Metal Dissection</h1>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"></link>
                 <div>
                     <Link href = '/about_alternative_metal_dissection/about_alternative_metal_dissection'> About Alternative Metal Dissection </Link>
                 </div>
