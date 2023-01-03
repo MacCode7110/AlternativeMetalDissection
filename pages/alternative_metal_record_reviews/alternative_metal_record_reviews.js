@@ -9,7 +9,7 @@ function alternativeMetalRecordReviews()
 
     return (
         <div>
-            <h1> Alternative Metal Record Reviews </h1>
+            <h1> Record Reviews </h1>
             <div> 
                 <ReviewList reviews = {metalReviewList}/> 
             </div>
