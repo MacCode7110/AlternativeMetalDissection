@@ -13,7 +13,7 @@ function NavBar()
                     <a class = "navbar-item is-size-6 has-text-dark has-text-weight-bold is-family-monospace" href = '/alternative_metal_record_reviews/alternative_metal_record_reviews'>
                         Record Reviews
                     </a>
-                    <a class = "navbar-item is-size-6 has-text-dark has-text-weight-bold is-family-monospace" href = "https://alternative-metal-dissection.vercel.app/record_review_request/index.html">
+                    <a class = "navbar-item is-size-6 has-text-dark has-text-weight-bold is-family-monospace" href = '/record_request/record_review_request'>
                         Request a Record for Review
                     </a>
                 </div>
