@@ -7,7 +7,7 @@ function recordReviewRequest()
                     Request a Record for Review
                 </h2>
                 <form action = "https://formsubmit.co/mattmcal88@gmail.com" method = "POST" name = "Record Request Form"> <br />
-                    <input type = "hidden" name = "_next" value = "https://alternative-metal-dissection.vercel.app/record_review_request/thank_you.js"/>
+                    <input type = "hidden" name = "_next" value = "https://alternative-metal-dissection.vercel.app/record_review_request/thank_you"/>
                     <div class="field">
                         <label class="label is-medium"> Record Name </label>
                             <div class="control">
