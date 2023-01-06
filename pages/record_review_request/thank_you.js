@@ -2,7 +2,7 @@ function thankYou()
 {
     return (
         <body>
-            <section class = "section is-large mgl-large">
+            <section class = "section is-large has-text-centered is-size-1">
                 <h2 class = "title">
                     Thank you for submitting a request for a record review!
                 </h2>
