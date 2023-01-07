@@ -22,6 +22,6 @@ form.addEventListener('submit', (e) => {
     if(errorMessages.length > 0)
     {
         e.preventDefault(); //preventDefault prevents the default event e, which is the event that the form is submitted.
-        errorElement.innerText() = errorMessages.join(','); //innerText() function is used to write dynamic text on an HTML document. When all of the error messages are joined into a single string, this single string is rendered onto the HTML document through the use of the innerText() function. 
+        errorElement.innerText = errorMessages.join(','); //innerText property is used to write dynamic text on an HTML document. When all of the error messages are joined into a single string, this single string is rendered onto the HTML document through the use of the innerText property. 
     }
 });
