@@ -2,8 +2,8 @@ function thankYou()
 {
     return (
         <body>
-            <section class = "section is-large has-text-centered ">
-                <h2 class = "title">
+            <section class = "section is-large has-text-centered">
+                <h2 class = "title is-size-4 has-text-weight-normal">
                     Thank you for submitting a request for a record review! The submission will be considered for a review!
                 </h2>
             </section>
