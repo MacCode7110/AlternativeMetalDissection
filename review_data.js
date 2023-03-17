@@ -5,10 +5,10 @@
     const reviewsList = [ //a constant array of key-value pairs, each element is treated as a Javascript object
         {
             id: 'r1',
-            title: 'Tallah - Matriphagy',
+            title: 'Hinge - Elemental Evil',
             text: 'a',
-            date: '2021-7-10',
-            image: 'images/tallah_matriphagy.jpg',
+            date: '2023-5-1',
+            image: 'images/HingeElementalEvilAlbumCover.jpg',
             isMetal: true
         },   
         ];
