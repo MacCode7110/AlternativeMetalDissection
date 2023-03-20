@@ -1,6 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
-import classes from '/styles/ReviewItemListing.module.css'; //here, we import all class objects from our module CSS file, similar to how the Link object is imported from Next.js for use.
 
 function ReviewItemListing(props) //Essentially each instance of the reviewItem function and its return is referenced in the reviewList function, where the full list of album reviews is returned.
 {
@@ -20,23 +18,26 @@ function ReviewItemListing(props) //Essentially each instance of the reviewItem 
     //similar to how src is needed to render an image onto the homepage, the className attribute is needed to render the CSS fonts/colors/styles onto the homepage as well.
     //referencing our ReviewItem CSS module located locally inside of our Reviews folder inside the list HTML bracket or div HTML bracket means that the CSS styling in that file applies to every item/part in the entire block that is returned in this function.
     //note that the React Fragment does not support CSS styling from a file when imported through the className attribute
-    return (<div>
-        <div className = {classes.reviewItemListingImageContainer}>
-            <Image src = {'/' + image} alt = {title} width = "600" height = "500"/> 
+    return (<div className = "card">
+        <div className = "card-image">
+            <figure className = "image is-1by1">
+                <img src = {'/' + image} alt = {title}/> 
+            </figure>
         </div>
-        <div> 
+        <div className = "card-content"> 
             <div>
-                <h2 className = {classes.reviewItemListingTitle}> {title} </h2> 
+                <h2> {title} </h2> 
                 <div>
-                    <time className = {classes.reviewItemListingDate}> {humanReadableDate} </time>
+                    <time> {humanReadableDate} </time>
                 </div>
             </div>
             <div>
-                <Link className = {classes.reviewItemListingLink} href = {reviewLink}>
+                <Link href = {reviewLink}>
                 Read Review
                 </Link>
             </div>
         </div>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"></link>
          </div>);
 }
  

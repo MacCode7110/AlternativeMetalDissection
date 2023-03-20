@@ -1,5 +1,3 @@
-
-
 function ReviewItem(props)
 { 
     const{review} = props;

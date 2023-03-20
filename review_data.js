@@ -9,8 +9,14 @@
             text: 'a',
             date: '2023-5-1',
             image: 'images/HingeElementalEvilAlbumCover.jpg',
-            isMetal: true
         },   
+        {
+            id: 'r2',
+            title: 'Deftones - Adrenaline',
+            text: 'b',
+            date: '2023-5-10',
+            image: 'images/DeftonesAdrenalineAlbumCover.jpg',
+        }
         ];
         
         export function getReviewByID(i) //function works correctly
@@ -20,8 +26,8 @@
             return reviewsList.find(review => (review.id === i)); //if the parameter i is strictly equal to the current review's id in the array of reviews, then true is returned and sent to the find function as an argument, and an indicator that the corresponding review has been located.
         }
         
-        export function getMetalReviews()
+        export function getAllReviews()
         {
-            return reviewsList.filter((review) => review.isMetal);
+            return reviewsList;
         }
         
