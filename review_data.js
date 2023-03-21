@@ -5,10 +5,10 @@
     const reviewsList = [ //a constant array of key-value pairs, each element is treated as a Javascript object
         {
             id: 'r1',
-            title: 'Hinge - Elemental Evil',
+            title: 'Fear Factory - Obsolete',
             text: 'a',
             date: '2023-5-1',
-            image: 'images/HingeElementalEvilAlbumCover.jpg',
+            image: 'images/FearFactoryObsoleteAlbumCover.jpg',
         },   
         {
             id: 'r2',
@@ -16,6 +16,27 @@
             text: 'b',
             date: '2023-5-10',
             image: 'images/DeftonesAdrenalineAlbumCover.jpg',
+        },
+        {
+            id: 'r3',
+            title: 'Spineshank - Strictly Diesel',
+            text: 'c',
+            date: '2023-5-15',
+            image: 'images/SpineshankStrictlyDieselAlbumCover.jpg'
+        },
+        {
+            id: 'r4',
+            title: 'Coal Chamber - Coal Chamber',
+            text: 'd',
+            date: '2023-5-20',
+            image: 'images/CoalChamberCoalChamberAlbumCover.jpg'
+        },
+        {
+            id: 'r5',
+            title: '40 Below Summer - Invitation to the Dance',
+            text: 'e',
+            date: '2023-5-25',
+            image: 'images/40BelowSummerInvitationtotheDanceAlbumCover.jpg'
         }
         ];
         

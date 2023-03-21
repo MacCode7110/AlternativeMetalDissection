@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 function ReviewItemListing(props) //Essentially each instance of the reviewItem function and its return is referenced in the reviewList function, where the full list of album reviews is returned.
 {
     const{title, image, date, text, id} = props; //from each element in reviewsList, we expect the data to come in the form of a title, linked image, date, review, and id tag - thus, we use object destructuring to separate the data for each element in the list of reviews into 5 different variables.
@@ -18,26 +16,31 @@ function ReviewItemListing(props) //Essentially each instance of the reviewItem 
     //similar to how src is needed to render an image onto the homepage, the className attribute is needed to render the CSS fonts/colors/styles onto the homepage as well.
     //referencing our ReviewItem CSS module located locally inside of our Reviews folder inside the list HTML bracket or div HTML bracket means that the CSS styling in that file applies to every item/part in the entire block that is returned in this function.
     //note that the React Fragment does not support CSS styling from a file when imported through the className attribute
-    return (<div className = "card">
-        <div className = "card-image">
-            <figure className = "image is-1by1">
-                <img src = {'/' + image} alt = {title}/> 
-            </figure>
-        </div>
-        <div className = "card-content"> 
+    
+    return (<div className = "box has-background-light mt-6">
+        <article className = "media">
+            <div className = "media-left">
+                <figure className = "image is-128x128">
+                    <img src = {'/' + image} alt = {title}/>
+                </figure>
+            </div>
+        <div className = "media-content"> 
+            <div className = "content"> 
             <div>
                 <h2> {title} </h2> 
                 <div>
                     <time> {humanReadableDate} </time>
                 </div>
             </div>
-            <div>
-                <Link href = {reviewLink}>
+            <div className = "pt-3">
+                <a className = "button is-outlined is-success" href = {reviewLink}>
                 Read Review
-                </Link>
+                </a>
+            </div>
             </div>
         </div>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"></link>
+    </article>
          </div>);
 }
  
