@@ -17,7 +17,7 @@ function ReviewItemListing(props) //Essentially each instance of the reviewItem 
     //referencing our ReviewItem CSS module located locally inside of our Reviews folder inside the list HTML bracket or div HTML bracket means that the CSS styling in that file applies to every item/part in the entire block that is returned in this function.
     //note that the React Fragment does not support CSS styling from a file when imported through the className attribute
     
-    return (<div className = "box has-background-light mt-6">
+    return (<div className = "box has-background-light">
         <article className = "media">
             <div className = "media-left">
                 <figure className = "image is-128x128">

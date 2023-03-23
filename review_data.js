@@ -5,17 +5,17 @@
     const reviewsList = [ //a constant array of key-value pairs, each element is treated as a Javascript object
         {
             id: 'r1',
-            title: 'Fear Factory - Obsolete',
+            title: 'Deftones - Adrenaline',
             text: 'a',
             date: '2023-5-1',
-            image: 'images/FearFactoryObsoleteAlbumCover.jpg',
+            image: 'images/DeftonesAdrenalineAlbumCover.jpg',
         },   
         {
             id: 'r2',
-            title: 'Deftones - Adrenaline',
+            title: 'Fear Factory - Obsolete',
             text: 'b',
             date: '2023-5-10',
-            image: 'images/DeftonesAdrenalineAlbumCover.jpg',
+            image: 'images/FearFactoryObsoleteAlbumCover.jpg',
         },
         {
             id: 'r3',
