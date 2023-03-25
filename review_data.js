@@ -6,37 +6,62 @@
         {
             id: 'r1',
             title: 'Deftones - Adrenaline',
-            text: 'a',
+            text: 'Review coming soon!',
             date: '2023-5-1',
+            releaseDate: '1995-3-10',
+            recordLabel: 'Maverick',
+            producer: 'Terry Date, Ross Robinson',
+            recordingStudio: 'Bad Animals',
             image: 'images/DeftonesAdrenalineAlbumCover.jpg',
+            bibliography: ''
         },   
         {
             id: 'r2',
             title: 'Fear Factory - Obsolete',
-            text: 'b',
+            text: 'Review coming Soon!',
             date: '2023-5-10',
+            releaseDate: '',
+            recordLabel: '',
+            producer: '',
+            recordingStudio: '',
             image: 'images/FearFactoryObsoleteAlbumCover.jpg',
+            bibliography: ''
         },
         {
             id: 'r3',
             title: 'Spineshank - Strictly Diesel',
-            text: 'c',
+            text: 'Review coming Soon!',
             date: '2023-5-15',
-            image: 'images/SpineshankStrictlyDieselAlbumCover.jpg'
+            releaseDate: '',
+            recordLabel: '',
+            producer: '',
+            recordingStudio: '',
+            image: 'images/SpineshankStrictlyDieselAlbumCover.jpg',
+            bibliography: ''
         },
         {
             id: 'r4',
             title: 'Coal Chamber - Coal Chamber',
-            text: 'd',
+            text: 'Review coming soon!',
             date: '2023-5-20',
-            image: 'images/CoalChamberCoalChamberAlbumCover.jpg'
+            releaseDate: '',
+            recordLabel: '',
+            producer: '',
+            recordingStudio: '',
+            image: 'images/CoalChamberCoalChamberAlbumCover.jpg',
+            bibliography: ''
         },
         {
             id: 'r5',
             title: '40 Below Summer - Invitation to the Dance',
-            text: 'e',
+            text: 'Review coming soon!',
             date: '2023-5-25',
-            image: 'images/40BelowSummerInvitationtotheDanceAlbumCover.jpg'
+            releaseDate: '',
+            recordLabel: '',
+            producer: '',
+            recordingStudio: '',
+            image: 'images/40BelowSummerInvitationtotheDanceAlbumCover.jpg',
+            bibliography: ''
         }
         ];
         

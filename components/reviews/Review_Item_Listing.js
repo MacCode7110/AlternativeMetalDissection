@@ -24,20 +24,20 @@ function ReviewItemListing(props) //Essentially each instance of the reviewItem 
                     <img src = {'/' + image} alt = {title}/>
                 </figure>
             </div>
-        <div className = "media-content"> 
-            <div className = "content"> 
-            <div>
-                <h2> {title} </h2> 
-                <div>
-                    <time> {humanReadableDate} </time>
+            <div className = "media-content"> 
+                <div className = "content"> 
+                    <div>
+                        <h2> {title} </h2> 
+                        <div>
+                            <time> Reviewed on {humanReadableDate} </time>
+                        </div>
+                    </div>
+                    <div className = "pt-3">
+                        <a className = "button is-outlined is-success" href = {reviewLink}>
+                        Read Review
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div className = "pt-3">
-                <a className = "button is-outlined is-success" href = {reviewLink}>
-                Read Review
-                </a>
-            </div>
-            </div>
         </div>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"></link>
     </article>
