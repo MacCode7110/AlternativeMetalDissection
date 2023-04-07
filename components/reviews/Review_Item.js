@@ -5,9 +5,7 @@ function ReviewItem(props)
     return (
         <div>
             <section className = "section is-medium">
-                <div className = "box has-background-light">
-                    <h1 className = "title has-text-weight-bold"> {review.title} </h1>
-                </div>
+                <h1 className = "title has-text-weight-bold"> {review.title} </h1>
                 <div className = "box has-background-light">
                      <article className = "media">
                         <div className = "media-left">
@@ -15,8 +13,8 @@ function ReviewItem(props)
                                 <img src = {'/' + review.image} alt = {review.title}/>
                             </figure>
                         </div>
-                        <div className = "media-content">
-                            <div className = "content pt-4">
+                        <div className = "media-content pt-4">
+                            <div className = "content">
                                 <div>
                                     Release Date: {review.releaseDate}
                                 </div>
@@ -35,6 +33,9 @@ function ReviewItem(props)
                 </div>
                 <div className = "box has-background-light">
                     <p className = "is-size-4 has-text-weight-normal"> {review.text} </p>
+                </div>
+                <div className = "box has-background-light">
+                    <p className = "is-size-4 has-text-weight-normal"> {review.bibliography} </p>
                 </div>
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"></link>
             </section>

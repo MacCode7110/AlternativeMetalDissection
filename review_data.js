@@ -13,31 +13,31 @@
             producer: 'Terry Date, Ross Robinson',
             recordingStudio: 'Bad Animals',
             image: 'images/DeftonesAdrenalineAlbumCover.jpg',
-            bibliography: ''
+            bibliography: 'Bibliography coming soon!'
         },   
         {
             id: 'r2',
             title: 'Fear Factory - Obsolete',
-            text: 'Review coming Soon!',
+            text: 'Review coming soon!',
             date: '2023-5-10',
             releaseDate: '',
             recordLabel: '',
             producer: '',
             recordingStudio: '',
             image: 'images/FearFactoryObsoleteAlbumCover.jpg',
-            bibliography: ''
+            bibliography: 'Bibliography coming soon!'
         },
         {
             id: 'r3',
             title: 'Spineshank - Strictly Diesel',
-            text: 'Review coming Soon!',
+            text: 'Review coming soon!',
             date: '2023-5-15',
             releaseDate: '',
             recordLabel: '',
             producer: '',
             recordingStudio: '',
             image: 'images/SpineshankStrictlyDieselAlbumCover.jpg',
-            bibliography: ''
+            bibliography: 'Bibliography coming soon!'
         },
         {
             id: 'r4',
@@ -49,7 +49,7 @@
             producer: '',
             recordingStudio: '',
             image: 'images/CoalChamberCoalChamberAlbumCover.jpg',
-            bibliography: ''
+            bibliography: 'Bibliography coming soon!'
         },
         {
             id: 'r5',
@@ -61,9 +61,27 @@
             producer: '',
             recordingStudio: '',
             image: 'images/40BelowSummerInvitationtotheDanceAlbumCover.jpg',
-            bibliography: ''
+            bibliography: 'Bibliography coming soon!'
         }
         ];
+
+        reviewsList.sort((a,b) => { //sort function called right on line 68
+            const aToUpperCase = a.title.toUpperCase();
+            const bToUpperCase = b.title.toUpperCase();
+
+            if(aToUpperCase < bToUpperCase)
+            {
+                return -1;
+            }
+            else if(aToUpperCase > bToUpperCase)
+            {
+                return 1;
+            }
+            else 
+            {
+                return 0;
+            }
+        });
         
         export function getReviewByID(i) //function works correctly
         {
