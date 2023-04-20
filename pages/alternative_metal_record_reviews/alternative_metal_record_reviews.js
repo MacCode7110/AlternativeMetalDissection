@@ -1,7 +1,5 @@
 import {getAllReviews} from '../../review_data';
-import ReviewList from '../../components/reviews/Review_List'
-import Head from 'next/head'
-import Image from 'next/image'
+import ReviewList from '../../components/reviews/Review_List';
 
 function alternativeMetalRecordReviews() 
 {
