@@ -1,8 +1,9 @@
 const opinionArticlesList = [
     {
         id: 'o1',
-        title: 'Modern Nu Metal-influenced Heavy Music Has Given Rap Rock a Breath of Fresh Air',
-        test: 'Opinion coming soon!',
+        title: 'Nu Metal and Post-Grunge Expressed Similar Emotions in Different Ways',
+        date: '2023-5-10',
+        text: 'Opinion coming soon!',
         bibliography: 'Bibliography coming soon!'
     }
 ];
