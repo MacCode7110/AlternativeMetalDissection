@@ -16,7 +16,7 @@ function NavBar()
                     <a className = "navbar-item is-size-6 has-text-dark has-text-weight-bold is-family-monospace" href = '/record_review_request/record_review_request'>
                         Request a Record for Review
                     </a>
-                    <a className = "navbar-item is-size-6 has-text-dark has-text-weight-bold is-family-monospace" href = '/opinion_articles'>
+                    <a className = "navbar-item is-size-6 has-text-dark has-text-weight-bold is-family-monospace" href = '/opinion_articles/opinion_articles'>
                         Opinion Articles
                     </a>
                 </div>

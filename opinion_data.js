@@ -4,6 +4,7 @@ const opinionArticlesList = [
         title: 'Nu Metal and Post-Grunge Expressed Similar Emotions in Different Ways',
         date: '2023-5-10',
         text: 'Opinion coming soon!',
+        image: 'images/opinion_article_stock_photos/DJStockPhoto.jpg',
         bibliography: 'Bibliography coming soon!'
     }
 ];

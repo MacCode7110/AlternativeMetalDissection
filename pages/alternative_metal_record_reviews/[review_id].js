@@ -8,8 +8,8 @@ function recordReview()
     //The query function is very useful:
         //"React Query is a great hook library for managing data requests that completely removes the need to put your remote data inside the global state (making the data more secure). You just need to tell the library where you need to fetch your data, and it will handle caching, background updates, and stale data without any extra code or configuration."
     const router = useRouter();
-    const ReviewId = router.query.review_id; //here we are telling the React router where our review data needs to be fetched, which is in the ReviewID dynamic javascript file (this current file).
-    const review = getReviewByID(ReviewId); //This is because data is passed through the Reatc router from one webpage to another webpage
+    const reviewID = router.query.review_id; //here we are telling the next router where our review data needs to be fetched, which is in the review_id dynamic javascript file (this current file).
+    const review = getReviewByID(reviewID); //This is because data is passed through the Reatc router from one webpage to another webpage
 
     if(!(review))
     {

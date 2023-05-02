@@ -12,7 +12,7 @@
             recordLabel: 'Maverick',
             producer: 'Terry Date, Ross Robinson',
             recordingStudio: 'Bad Animals',
-            image: 'images/DeftonesAdrenalineAlbumCover.jpg',
+            image: 'images/album_covers/DeftonesAdrenalineAlbumCover.jpg',
             bibliography: 'Bibliography coming soon!'
         },   
         {
@@ -24,7 +24,7 @@
             recordLabel: '',
             producer: '',
             recordingStudio: '',
-            image: 'images/FearFactoryObsoleteAlbumCover.jpg',
+            image: 'images/album_covers/FearFactoryObsoleteAlbumCover.jpg',
             bibliography: 'Bibliography coming soon!'
         },
         {
@@ -36,7 +36,7 @@
             recordLabel: '',
             producer: '',
             recordingStudio: '',
-            image: 'images/SpineshankStrictlyDieselAlbumCover.jpg',
+            image: 'images/album_covers/SpineshankStrictlyDieselAlbumCover.jpg',
             bibliography: 'Bibliography coming soon!'
         },
         {
@@ -48,7 +48,7 @@
             recordLabel: '',
             producer: '',
             recordingStudio: '',
-            image: 'images/CoalChamberCoalChamberAlbumCover.jpg',
+            image: 'images/album_covers/CoalChamberCoalChamberAlbumCover.jpg',
             bibliography: 'Bibliography coming soon!'
         },
         {
@@ -60,7 +60,7 @@
             recordLabel: '',
             producer: '',
             recordingStudio: '',
-            image: 'images/40BelowSummerInvitationtotheDanceAlbumCover.jpg',
+            image: 'images/album_covers/40BelowSummerInvitationtotheDanceAlbumCover.jpg',
             bibliography: 'Bibliography coming soon!'
         }
         ];
