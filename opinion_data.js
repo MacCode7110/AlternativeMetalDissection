@@ -1,10 +1,16 @@
 const opinionArticlesList = [
     {
         id: 'o1',
-        title: 'Nu Metal and Post-Grunge Expressed Similar Emotions in Different Ways',
+        title: 'The DJ Element of Nu Metal Capitalizes on the Bravado that the Genre Thrives On',
         date: '2023-5-10',
         text: 'Opinion coming soon!',
-        image: 'images/opinion_article_stock_photos/DJStockPhoto.jpg',
+        bibliography: 'Bibliography coming soon!'
+    },
+    {
+        id: 'o2',
+        title: 'test',
+        date: '2023-5-15',
+        text: 'Opinion coming soon!',
         bibliography: 'Bibliography coming soon!'
     }
 ];
@@ -20,5 +26,4 @@ export function getAllOpinionArticles()
 {
     return opinionArticlesList;
 }
-
-//TODO: Add sort by date function
+    

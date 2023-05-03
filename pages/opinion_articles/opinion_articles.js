@@ -15,4 +15,4 @@ function opinionArticles()
     );
 }
 
-export default opinionArticles();
+export default opinionArticles;

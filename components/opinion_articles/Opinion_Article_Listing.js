@@ -1,6 +1,6 @@
 function OpinionArticleListing(props)
 {
-    const{title, date, text, id} = props;
+    const{id, title, date} = props;
 
     const humanReadableDate = new Date(date).toLocaleDateString('en-US', 
     {
@@ -11,15 +11,8 @@ function OpinionArticleListing(props)
 
     const opinionArticleLink = `../../opinion_articles/${id}`;
 
-    //Work on CSS/HTML components here
-
     return (<div className = "box has-background-light">
     <article className = "media">
-        <div className = "media-left">
-            <figure className = "image is-128x128">
-                <img src = {'/' + image} alt = {title}/>
-            </figure>
-        </div>
         <div className = "media-content"> 
             <div className = "content"> 
                 <div>

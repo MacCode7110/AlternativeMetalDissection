@@ -9,7 +9,7 @@ function OpinionArticleList(props)
             <h1 className = "title has-text-weight-bold"> Opinion Articles </h1>
                 <ul>        
                 {articles.map(r => 
-                <OpinionArticleListing key = {r.id} id = {r.id} title = {r.title} date = {r.date}/> //we must reference each variable part of the object destructuring of the properties object argument
+                <OpinionArticleListing key = {r.id} id = {r.id} title = {r.title} date = {r.date} image = {r.image}/> //we must reference each variable part of the object destructuring of the properties object argument
                 )}  
                 </ul>
         </section>
