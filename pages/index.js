@@ -10,7 +10,7 @@ function homePage()
             <div className = "card has-background-light">
                 <div className = "card-content">
                     <p className = "title is-1 is-spaced">
-                        Placeholder
+                        DJ scratching and sampling developed at Hip Hop parties in the Bronx, New York in the 1970s. From the aggressive yet admirably self-aware presence of musically-talented Limp Bizkit to the tribal drumming of Brazilian-influenced Soulfly, the energy of DJ turntables and mixers enlivened the personality of Nu Metal bands beginning in the 1990s.  
                     </p>
                     <p className = "subtitle is-3">
                         Read <a href = {opinionArticleLink}> {title} </a>
