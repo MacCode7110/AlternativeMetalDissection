@@ -4,7 +4,7 @@ function recordReviewRequest()
             <div>
                 <section className = "section is-medium">
                     <h1 className = "title has-text-weight-bold">
-                    Request a Record for Review
+                    Suggest a Record for Review
                     </h1>
                     <form action = "https://formsubmit.co/mattmcal88@gmail.com" method = "POST" name = "Record Request Form"> <br />
                         <input type = "hidden" name = "_next" value = "https://alternative-metal-dissection.vercel.app/record_review_request/thank_you"/>
@@ -29,7 +29,7 @@ function recordReviewRequest()
                                     </div>
                             </div>
                             <div className="control">
-                                <button type = "submit" className="button is-link is-size-4 has-text-weight-normal is-success"> Submit Request </button>
+                                <button type = "submit" className="button is-link is-size-4 has-text-weight-normal is-success"> Submit Suggestion </button>
                             </div>
                     </form>
                 </section>

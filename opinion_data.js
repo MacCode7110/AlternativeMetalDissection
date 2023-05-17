@@ -1,7 +1,7 @@
 const opinionArticlesList = [
     {
         id: 'o1',
-        title: 'The DJ Turntable as an Instrument in Nu Metal Capitalizes on the Bold Nature that the Genre Thrives On',
+        title: 'The DJ Turntable as an Instrument in Nu Metal Capitalizes on the Upfront Nature that the Genre Thrives On',
         date: '2023-5-10',
         text: 'Opinion coming soon!',
         bibliography: 'Bibliography coming soon!'
