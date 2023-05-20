@@ -2,14 +2,19 @@ import {useRouter} from 'next/router' //in order to access data dynamically (bas
 import {getReviewByID} from '../../review_data'
 import ReviewItem from '../../components/reviews/Review_Item'
 
+/**
+ * Queries the reviewID and returns the HTML for a record review
+ * @returns HTML for a record review
+ */
+
 function recordReview()
 {
-    //EXTREMELY IMPORTANT CODE: In order to obtain the ID for an element in the list of review data, we must gain access to the React router and use the query function to obtain the ID of a certain element of data.
+    //EXTREMELY IMPORTANT CODE: In order to obtain the ID for an element in the list of review data, we must gain access to the Next router and use the query function to obtain the ID of a certain element of data.
     //The query function is very useful:
         //"React Query is a great hook library for managing data requests that completely removes the need to put your remote data inside the global state (making the data more secure). You just need to tell the library where you need to fetch your data, and it will handle caching, background updates, and stale data without any extra code or configuration."
     const router = useRouter();
-    const reviewID = router.query.review_id; //here we are telling the next router where our review data needs to be fetched, which is in the review_id dynamic javascript file (this current file).
-    const review = getReviewByID(reviewID); //This is because data is passed through the Reatc router from one webpage to another webpage
+    const reviewID = router.query.review_id; //here we are telling the Next router where our review data needs to be fetched, which is in the review_id dynamic javascript file (this current file).
+    const review = getReviewByID(reviewID); //This is because data is passed through the React router from one webpage to another webpage
 
     if(!(review))
     {

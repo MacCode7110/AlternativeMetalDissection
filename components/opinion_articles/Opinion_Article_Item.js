@@ -1,3 +1,9 @@
+/**
+ * Returns HTML for an OpinionArticleItem
+ * @param {*} props 
+ * @returns HTML for an OpinionArticleItem
+ */
+
 function OpinionArticleItem(props)
 {
     const{opinionArticle} = props;

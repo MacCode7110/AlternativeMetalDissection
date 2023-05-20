@@ -1,3 +1,8 @@
+/**
+ * Returns the HTML for the thank you page following a submitted suggestion
+ * @returns the HTML for the thank you page following a submitted suggestion
+ */
+
 function thankYou()
 {
     return (

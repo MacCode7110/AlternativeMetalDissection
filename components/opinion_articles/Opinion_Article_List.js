@@ -1,5 +1,11 @@
 import OpinionArticleListing from './Opinion_Article_Listing';
 
+/**
+ * Returns HTML for an OpinionArticleList
+ * @param {*} props 
+ * @returns HTML for an OpinionArticleList
+ */
+
 function OpinionArticleList(props)
 {
     const {articles} = props;

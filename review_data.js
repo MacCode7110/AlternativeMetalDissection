@@ -83,6 +83,12 @@
             }
         });
         
+        /**
+         * Gets a record review corresponding to the argument ID
+         * @param {String} i 
+         * @returns record review
+         */
+
         export function getReviewByID(i) //function works correctly
         {
             const r = reviewsList.find(review => (review.id === i));
@@ -90,6 +96,11 @@
             return reviewsList.find(review => (review.id === i)); //if the parameter i is strictly equal to the current review's id in the array of reviews, then true is returned and sent to the find function as an argument, and an indicator that the corresponding review has been located.
         }
         
+        /**
+         * Gets all record reviews
+         * @returns the list of all record reviews
+         */
+
         export function getAllReviews()
         {
             return reviewsList;

@@ -1,3 +1,9 @@
+/**
+ * Returns HTML for a ReviewItem
+ * @param {*} props 
+ * @returns HTML for a ReviewItem
+ */
+
 function ReviewItem(props)
 { 
     const{review} = props;

@@ -8,12 +8,23 @@ const opinionArticlesList = [
     }
 ];
 
+/**
+ * Gets the opinion article corresponding to the argument ID
+ * @param {string} i 
+ * @returns opinion article
+ */
+
 export function getOpinionArticleByID(i) //function works correctly
 {
     const r = opinionArticlesList.find(article => (article.id === i));
     console.log(r);
-    return opinionArticlesList.find(article => (article.id === i)); //if the parameter i is strictly equal to the current review's id in the array of reviews, then true is returned and sent to the find function as an argument, and an indicator that the corresponding review has been located.
+    return opinionArticlesList.find(article => (article.id === i)); //if the parameter i is strictly equal to the current article's id in the array of articles, then true is returned and sent to the find function as an argument, and an indicator that the corresponding article has been located.
 }
+
+/**
+ * Gets all opinion articles
+ * @returns a list of all opinion articles
+ */
 
 export function getAllOpinionArticles()
 {

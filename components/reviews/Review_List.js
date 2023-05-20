@@ -1,5 +1,11 @@
 import ReviewItemListing from './Review_Item_Listing'
 
+/**
+ * Returns HTML for a ReviewList
+ * @param {*} props 
+ * @returns HTML for a ReviewList
+ */
+
 function ReviewList(props) //this function is technically a React function component - it is called a React component because it accepts a properties argument object as a parameter. This argument object contains data that comes from the ReviewData.js file.
 {
     const {reviews} = props; //object destructuring example - allows us to extract data from objects and store them into a new variable - this is the same as returning props.items

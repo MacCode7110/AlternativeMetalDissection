@@ -1,6 +1,11 @@
 import {getAllReviews} from '../../review_data';
 import ReviewList from '../../components/reviews/Review_List';
 
+/**
+ * Gets and stores all reviews, and returns HTML for the list of record reviews
+ * @returns HTML for the list of record reviews
+ */
+
 function alternativeMetalRecordReviews() 
 {
     const allReviewsList = getAllReviews();

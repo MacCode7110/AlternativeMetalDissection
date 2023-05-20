@@ -1,5 +1,10 @@
 import {getOpinionArticleByID} from '../opinion_data'
 
+/**
+ * Returns the HTML for the homepage
+ * @returns the HTML for the homepage
+ */
+
 function homePage()
 {
     const {id, title} = getOpinionArticleByID('o1');

@@ -1,3 +1,8 @@
+/**
+ * Returns HTML for the navigation bar
+ * @returns HTML for the navigation bar
+ */
+
 function NavBar()
 {
     return (

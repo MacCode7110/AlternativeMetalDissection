@@ -1,4 +1,9 @@
-function recordReviewRequest()
+/**
+ * Returns the HTML for the Record Review Suggestion form
+ * @returns the HTML for the Record Review Suggestion form
+ */
+
+function recordReviewSuggestion()
 {
     return (
             <div>
@@ -38,6 +43,6 @@ function recordReviewRequest()
     );
 }
 
-export default recordReviewRequest;
+export default recordReviewSuggestion;
 
 //For attribute is used in labels, and it establishes (gives the label) an id for the associated input.
