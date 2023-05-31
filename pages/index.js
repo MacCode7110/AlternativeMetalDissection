@@ -14,12 +14,12 @@ function homePage()
         <section className = "section is-medium">
             <div className = "card has-background-light">
                 <div className = "card-content">
-                    <p className = "title is-3 is-spaced">
+                    <div className = "title is-3 is-spaced">
                         DJ scratching and sampling developed at Hip Hop parties in the Bronx, New York in the 1970s. From the aggressive yet admirably self-aware presence of musically-talented Limp Bizkit to the tribal drumming of Brazilian-influenced Soulfly, the energy of DJ turntables and mixers enlivened the personality of Nu Metal bands beginning in the 1990s.  
-                    </p>
-                    <p className = "subtitle is-5">
+                    </div>
+                    <div className = "subtitle is-5">
                         Read <a href = {opinionArticleLink}> {title} </a>
-                    </p>
+                    </div>
                 </div>
             </div>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"></link>

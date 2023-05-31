@@ -1,4 +1,5 @@
 import NavBar from '../components/Nav_Bar'
+import '../styles/globals.css'
 
 /**
  * Renders every React component and the navigation bar component on every webpage

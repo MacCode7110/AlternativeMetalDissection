@@ -41,7 +41,7 @@ function ReviewItem(props)
                     <p className = "is-size-4 has-text-weight-normal"> {review.text} </p>
                 </div>
                 <div className = "box has-background-light">
-                    <p className = "is-size-4 has-text-weight-normal"> {review.bibliography} </p>
+                    <div className = "is-size-4 has-text-weight-normal"> {review.bibliography} </div>
                 </div>
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"></link>
             </section>

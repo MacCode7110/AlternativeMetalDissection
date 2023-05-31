@@ -1,0 +1,7 @@
+/*
+Indentation of the first line of content inside paragraph element
+*/
+
+p {
+    text-indent: 5%;
+}
